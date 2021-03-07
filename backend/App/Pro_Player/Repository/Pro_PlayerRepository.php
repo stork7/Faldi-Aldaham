@@ -1,7 +1,7 @@
-<?php namespace App\Teams;
+<?php namespace App\Pro_Player\Repository;
 use App\Database\Repository\Repository;
 
-class TeamsRepository extends Repository
+class Pro_PlayerRepository extends Repository
 {
     public function __construct()
     {
@@ -10,11 +10,11 @@ class TeamsRepository extends Repository
 
     protected function getEntityName()
     {
-        return "App\Teams\TeamsEntity";
+        return "App\Pro_Player\Pro_PlayerEntity";
     }
 
     protected function getTableName()
     {
-        return "teams";
+        return "pro_player";
     }
 }

@@ -1,7 +1,7 @@
-<?php namespace App\Thread;
+<?php namespace App\Region\Repository;
 use App\Database\Repository\Repository;
 
-class ThreadRepository extends Repository
+class RegionRepository extends Repository
 {
     public function __construct()
     {
@@ -10,11 +10,11 @@ class ThreadRepository extends Repository
 
     protected function getEntityName()
     {
-        return "App\Thread\ThreadEntity";
+        return "App\Region\RegionEntity";
     }
 
     protected function getTableName()
     {
-        return "thread";
+        return "region";
     }
 }

@@ -1,4 +1,4 @@
-<?php namespace App\Region;
+<?php namespace App\Region\Entity;
 use App\Database\Entity\Entity;
 
 class RegionEntity extends Entity

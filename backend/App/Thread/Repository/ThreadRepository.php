@@ -1,7 +1,7 @@
-<?php namespace App\Comment;
+<?php namespace App\Thread\Repository;
 use App\Database\Repository\Repository;
 
-class CommentRepository extends Repository
+class ThreadRepository extends Repository
 {
     public function __construct()
     {
@@ -10,11 +10,11 @@ class CommentRepository extends Repository
 
     protected function getEntityName()
     {
-        return "App\Comment\CommentEntity";
+        return "App\Thread\ThreadEntity";
     }
 
     protected function getTableName()
     {
-        return "comment";
+        return "thread";
     }
 }

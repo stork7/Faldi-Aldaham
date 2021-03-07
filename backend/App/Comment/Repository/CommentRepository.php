@@ -1,7 +1,7 @@
-<?php namespace App\Region;
+<?php namespace App\Comment\Repository;
 use App\Database\Repository\Repository;
 
-class RegionRepository extends Repository
+class CommentRepository extends Repository
 {
     public function __construct()
     {
@@ -10,11 +10,11 @@ class RegionRepository extends Repository
 
     protected function getEntityName()
     {
-        return "App\Region\RegionEntity";
+        return "App\Comment\CommentEntity";
     }
 
     protected function getTableName()
     {
-        return "region";
+        return "comment";
     }
 }

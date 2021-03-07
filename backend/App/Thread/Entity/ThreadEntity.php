@@ -1,4 +1,4 @@
-<?php namespace App\Thread;
+<?php namespace App\Thread\Entity;
 use App\Database\Entity\Entity;
 
 class ThreadEntity extends Entity

@@ -1,4 +1,4 @@
-<?php namespace App\Forum;
+<?php namespace App\Forum\Entity;
 use App\Database\Entity\Entity;
 
 class ForumEntity extends Entity

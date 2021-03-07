@@ -1,16 +1,12 @@
 <?php namespace App;
 
-
-use App\User\UserRepository;
-use App\User\UserEntity;
+use App\Router\RestRouter;
 
 class Application
 {
     public static function run()
     {
-        $userRepository = new UserRepository();
-        $user = $userRepository->getById(1);
-        echo $user->getUserName();
+        RestRouter::run();
     }
 
 }

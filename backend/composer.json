@@ -7,6 +7,10 @@
         }
     },
     "require": {
-        "ext-pdo": "^7.4"
+        "ext-pdo": "^7.4",
+        "bramus/router": "^1.5",
+        "zeptech/annotations": "^1.1",
+        "haydenpierce/class-finder": "^0.4.3",
+        "symfony/property-access": "^5.2"
     }
 }

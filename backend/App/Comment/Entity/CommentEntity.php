@@ -1,4 +1,4 @@
-<?php namespace App\Comment;
+<?php namespace App\Comment\Entity;
 use App\Database\Entity\Entity;
 
 class CommentEntity extends Entity

@@ -1,4 +1,4 @@
-<?php namespace App\Pro_Player;
+<?php namespace App\Pro_Player\Entity;
 use App\Database\Entity\Entity;
 
 class Pro_PlayerEntity extends Entity

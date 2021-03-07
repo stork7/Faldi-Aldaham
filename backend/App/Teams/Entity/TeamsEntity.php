@@ -1,4 +1,4 @@
-<?php namespace App\Teams;
+<?php namespace App\Teams\Entity;
 use App\Database\Entity\Entity;
 
 class TeamsEntity extends Entity

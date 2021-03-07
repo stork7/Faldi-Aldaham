@@ -1,4 +1,4 @@
-<?php namespace App\User;
+<?php namespace App\User\Repository;
 use App\Database\Repository\Repository;
 
 class UserRepository extends Repository

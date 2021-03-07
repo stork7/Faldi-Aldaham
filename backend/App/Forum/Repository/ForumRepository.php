@@ -1,4 +1,4 @@
-<?php namespace App\Forum;
+<?php namespace App\Forum\Repository;
 use App\Database\Repository\Repository;
 
 class ForumRepository extends Repository
