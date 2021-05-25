@@ -40,6 +40,7 @@ class UserController {
     }
 
     /**
+     * @Autorized(permission="admin")
      * @Action(method="PUT", path="/{id}")
      */
     public function updateUser($id) {
@@ -47,6 +48,7 @@ class UserController {
     }
 
     /**
+     * @Autorized(permission="admin")
      * @Action(method="DELETE", path="/{id}")
      */
     public function deleteUser($id) {
